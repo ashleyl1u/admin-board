@@ -6,12 +6,105 @@
 }
 
 .header{
-  background-color: blue;
+  background-color: white;
   grid-row: 1/2;
+  display: grid;
+  padding: 20px;
+  gap: 35px;
 }
 
+
+
+.user-info .profile{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.header .one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input{
+  width: 500px;
+  border-style: none;
+  border-radius: 300px;
+  padding: 3px 10px;
+  background-color: whitesmoke;
+}
+
+.search-button{
+  width: 25px;
+  height: 25px;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification{
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+
+
+.header .two{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.welcome-message{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.welcome-message .profile{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.welcome-message .small-text{
+  font-size: 12px;
+}
+
+.welcome-message .big-text{
+  font-size: 18px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.buttons button{
+  padding: 5px 10px;
+  width: 90px;
+  border-radius: 45px;
+  border-style: none;
+}
+
+
+
+
 .sidebar{
-  background-color: #020617;
+  background-color: #00061b;
   color: white;
   grid-column: 1/2;
   grid-row:1/6;
@@ -31,7 +124,7 @@
   cursor: pointer;
 }
 
-img{
+.sidebar img{
   height: 20px;
   width: 20px;
   
@@ -54,14 +147,14 @@ img{
 }
 
 
- .two , .three{
+ .sidebar .two , .sidebar .three{
   margin-left: 10px;
   font-size: 18px;
   font-weight: 600;
 }
 
 .main{
-  background-color: red;
+  background-color: lightblue;
   grid-row: 2/6;;
 }
 
