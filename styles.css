@@ -226,7 +226,9 @@ h3{
   border-left-width: 5px;
   border-left-color: #343a40;
   border-left-style: solid;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -240,10 +242,8 @@ h3{
 .main .buttons{
   display: flex;
   gap: 15px;
-  
-  position: absolute;
-  top: 75%;
-  left: 73%;
+  justify-content: end;
+ 
   
 }
 
